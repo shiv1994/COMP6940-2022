@@ -1,5 +1,6 @@
  // javascript
- var dataset = [80, 100, 56, 120, 180, 30, 40, 120, 160];
+ //var dataset = [80, 100, 56, 120, 180, 30, 40, 120, 160];
+ var dataset = [5,10,2,3,6];
 
  var svgWidth = 500, svgHeight = 300, barPadding = 5;
  var barWidth = svgWidth / dataset.length;

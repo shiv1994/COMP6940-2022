@@ -1,6 +1,6 @@
  // javascript
  
- var data= [80, 100, 56, 120, 180, 30, 40, 120, 160];
+ var data = [80, 100, 56, 120, 180, 30, 40, 120, 160];
 
  var svgWidth = 500, svgHeight = 300;
  

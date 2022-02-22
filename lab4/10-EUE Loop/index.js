@@ -50,9 +50,9 @@ rects.enter() // Enter Select any new elements
   .attr("x", function(d){
       console.log(scale(d));
       return scale(d);
-  });
-  //.merge(rects)//merge the enter selction with rects, the resulting selection is all the elements
-  //.attr("fill", color);
+  })
+  .merge(rects)//merge the enter selction with rects, the resulting selection is all the elements
+  .attr("fill", color);
 // Exit
 rects.exit().remove();
 }
